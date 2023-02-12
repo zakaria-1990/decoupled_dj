@@ -16,6 +16,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'user.apps.UserConfig',
+    'billing.apps.BillingConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
